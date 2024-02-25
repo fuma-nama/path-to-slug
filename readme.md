@@ -1,6 +1,13 @@
 ## path-to-slug
 
-Convert file paths to slugs.
+Convert file path to slugs.
+
+- Typescript support
+- Zero dependencies
+
+```bash
+npm i path-to-slug
+```
 
 ### Usages
 
