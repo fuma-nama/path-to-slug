@@ -5,6 +5,7 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": "github:fuma-nama/path-to-slug",
   "files": [
     "./dist"
   ],

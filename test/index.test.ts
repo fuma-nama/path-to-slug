@@ -7,8 +7,13 @@ test("Run", () => {
   expect(toSlug("//hello/world///")).toStrictEqual(["hello", "world"]);
 });
 
+test("File names", () => {
+  expect(toSlug("hello/world.ts")).toStrictEqual(["hello", "world"]);
+});
+
 test("With index", () => {
   expect(toSlug("hello/world/index")).toStrictEqual(["hello", "world"]);
+  expect(toSlug("hello/world/index.ts")).toStrictEqual(["hello", "world"]);
   expect(toSlug("/hello///world/index/")).toStrictEqual(["hello", "world"]);
 });
 
